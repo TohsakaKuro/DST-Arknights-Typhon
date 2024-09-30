@@ -18,27 +18,21 @@ reign_of_giants_compatible = false
 dst_compatible = true
 all_clients_require_mod = true
 
-icon_atlas = "images/modicon.xml"
+icon_atlas = "modicon.xml"
 icon = "modicon.tex"
 
 server_filter_tags = {"character", "tifeng", "arknights", "提丰", "明日方舟", "Typhon"}
 configuration_options = {{
-    name = ChooseTranslationTable({
-        en = "Language",
-        zh = "语言"
-    }),
+    name = "language",
     label = ChooseTranslationTable({
         en = "Choose Language",
         zh = "选择语言"
     }),
-    hover = "",
+    hover = ChooseTranslationTable({
+        en = "Choose the language of the mod",
+        zh = "选择mod的语言"
+    }),
     options = {{
-        description = ChooseTranslationTable({
-            en = "English",
-            zh = "英语"
-        }),
-        data = "en"
-    }, {
         description = ChooseTranslationTable({
             en = "Chinese",
             zh = "中文"
@@ -52,4 +46,73 @@ configuration_options = {{
         data = "auto"
     }},
     default = "auto"
+}, {
+    name = "voice_language",
+    label = ChooseTranslationTable({
+        en = "Choose Voice Language",
+        zh = "选择角色语音语言"
+    }),
+    hover = ChooseTranslationTable({
+        en = "Choose the language of the voice",
+        zh = "选择角色语音的语言"
+    }),
+    options = {{
+        description = ChooseTranslationTable({
+            en = "Japanese",
+            zh = "日语"
+        }),
+        data = "jp"
+    }, {
+        description = ChooseTranslationTable({
+            en = "Auto",
+            zh = "自动"
+        }),
+        data = "auto"
+    }},
+    default = "auto"
+}, {
+    name = "skill1_hotkey",
+    label = ChooseTranslationTable({
+        en = "Skill 1 Hotkey",
+        zh = "技能 迅捷打击·γ型 快捷键"
+    }),
+    hover = ChooseTranslationTable({
+        en = "Set the hotkey for skill 1",
+        zh = "设置技能 迅捷打击·γ型 的快捷键"
+    }),
+    options = {{
+        description = "Z",
+        data = 122
+    }},
+    default = 122
+}, {
+    name = "skill2_hotkey",
+    label = ChooseTranslationTable({
+        en = "Skill 2 Hotkey",
+        zh = "技能 冰原秩序 快捷键"
+    }),
+    hover = ChooseTranslationTable({
+        en = "Set the hotkey for skill 2",
+        zh = "设置技能 冰原秩序 的快捷键"
+    }),
+    options = {{
+        description = "X",
+        data = 120
+    }},
+    default = 120
+}, {
+    name = "skill3_hotkey",
+    label = ChooseTranslationTable({
+        en = "Skill 3 Hotkey",
+        zh = "技能 “永恒狩猎” 快捷键"
+    }),
+    hover = ChooseTranslationTable({
+        en = "Set the hotkey for skill 3",
+        zh = "设置技能 “永恒狩猎” 的快捷键"
+    }),
+    options = {{
+        description = "R",
+        data = 114
+    }},
+    default = 114
 }}

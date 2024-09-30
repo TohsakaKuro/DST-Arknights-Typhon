@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0">
+        <file id="0" name="typhon_mechaxbow_arrow_shoot.png" width="512" height="194" pivot_x="1" pivot_y="0.5"/>
+        <file id="1" name="typhon_arrowup.png" width="256" height="256" pivot_x="1" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="typhon_mechaxbow_arrow_shoot">
+        <animation id="0" name="arrow_side" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="typhon_mechaxbow_arrow_shoot" folder="0" file="0" abs_x="113.282472" abs_y="-30.96386" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="70" abs_scale_x="-1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="typhon_arrowup" folder="0" file="1" abs_x="148.945935" abs_y="133.049949" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="70" abs_scale_x="-0.199717" abs_scale_y="0.149094" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="typhon_arrowup_000" folder="0" file="1" abs_x="167.296444" abs_y="71.388391" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="70" abs_scale_x="-0.199717" abs_scale_y="0.149094" abs_a="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" name="typhon_arrowup_001" folder="0" file="1" abs_x="212.74368" abs_y="152.396579" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="70" abs_scale_x="-0.199717" abs_scale_y="0.149094" abs_a="1" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" name="typhon_arrowup_002" folder="0" file="1" abs_x="199.667419" abs_y="233.422023" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="70" abs_scale_x="-0.199717" abs_scale_y="0.149094" abs_a="1" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="1" time="1000">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="1" z_index="4"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="typhon_mechaxbow_arrow_shoot">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="113.282472" y="-30.96386" angle="70" scale_x="-1" scale_y="1"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="0" x="1297.569299" y="3379.26836" angle="70" scale_x="-1" scale_y="1"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="typhon_arrowup">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="148.945935" y="133.049949" angle="70" scale_x="-0.199717" scale_y="0.149094"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="1" x="1128.020677" y="2979.466598" angle="70" scale_x="-0.69972" scale_y="0.14909"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="typhon_arrowup_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="167.296444" y="71.388391" angle="70" scale_x="-0.199717" scale_y="0.149094"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="1" x="1276.338839" y="3274.888233" angle="70" scale_x="-0.59972" scale_y="0.14909"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="typhon_arrowup_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="212.74368" y="152.396579" angle="70" scale_x="-0.199717" scale_y="0.149094"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="1" x="1357.58868" y="3454.263269" angle="70" scale_x="-0.49972" scale_y="0.14909"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="typhon_arrowup_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="199.667419" y="233.422023" angle="70" scale_x="-0.199717" scale_y="0.149094"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="1" x="1355.908592" y="3566.599443" angle="70" scale_x="-0.199717" scale_y="0.149094"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="arrow_up" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="typhon_mechaxbow_arrow_shoot" folder="0" file="0" abs_x="0" abs_y="1" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="90" abs_scale_x="-1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="typhon_arrowup" folder="0" file="1" abs_x="-22.583333" abs_y="167.320188" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="90" abs_scale_x="-0.199717" abs_scale_y="0.149094" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="typhon_arrowup_000" folder="0" file="1" abs_x="15.75" abs_y="115.653521" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="90" abs_scale_x="-0.199717" abs_scale_y="0.149094" abs_a="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" name="typhon_arrowup_001" folder="0" file="1" abs_x="30.75" abs_y="207.320188" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="90" abs_scale_x="-0.199717" abs_scale_y="0.149094" abs_a="1" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" name="typhon_arrowup_002" folder="0" file="1" abs_x="-9.25" abs_y="278.986855" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="90" abs_scale_x="-0.199717" abs_scale_y="0.149094" abs_a="1" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="1" time="1000">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="1" z_index="4"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="typhon_mechaxbow_arrow_shoot">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" y="1" angle="90" scale_x="-1"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="0" x="-3.4" y="2838.941176" angle="90" scale_x="-0.72" scale_y="0.512"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="typhon_arrowup">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-22.583333" y="167.320188" angle="90" scale_x="-0.199717" scale_y="0.149094"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="1" x="-14.962666" y="2526.691713" angle="90" scale_x="-0.503798" scale_y="0.076334"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="typhon_arrowup_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="15.75" y="115.653521" angle="90" scale_x="-0.199717" scale_y="0.149094"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="1" x="4.664" y="2763.091711" angle="90" scale_x="-0.431798" scale_y="0.076334"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="typhon_arrowup_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="30.75" y="207.320188" angle="90" scale_x="-0.199717" scale_y="0.149094"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="1" x="12.344" y="2904.461176" angle="90" scale_x="-0.359798" scale_y="0.076334"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="typhon_arrowup_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-9.25" y="278.986855" angle="90" scale_x="-0.199717" scale_y="0.149094"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="1" x="-8.136" y="2980.051708" angle="90" scale_x="-0.143796" scale_y="0.076336"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="arrow_down" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="typhon_mechaxbow_arrow_shoot" folder="0" file="0" abs_x="0" abs_y="1" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="90" abs_scale_x="-1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="typhon_arrowup" folder="0" file="1" abs_x="-22.583333" abs_y="167.320188" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="90" abs_scale_x="-0.199717" abs_scale_y="0.149094" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" name="typhon_arrowup_000" folder="0" file="1" abs_x="15.75" abs_y="115.653521" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="90" abs_scale_x="-0.199717" abs_scale_y="0.149094" abs_a="1" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" name="typhon_arrowup_001" folder="0" file="1" abs_x="30.75" abs_y="207.320188" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="90" abs_scale_x="-0.199717" abs_scale_y="0.149094" abs_a="1" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" name="typhon_arrowup_002" folder="0" file="1" abs_x="-9.25" abs_y="278.986855" abs_pivot_x="1" abs_pivot_y="0.5" abs_angle="90" abs_scale_x="-0.199717" abs_scale_y="0.149094" abs_a="1" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="1" time="1000">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="1" z_index="4"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="typhon_mechaxbow_arrow_shoot">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" y="1" angle="90" scale_x="-1"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="0" x="-27.055556" y="1238.777778" angle="90" scale_x="-0.4" scale_y="3"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="typhon_arrowup">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-22.583333" y="167.320188" angle="90" scale_x="-0.199717" scale_y="0.149094"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="1" x="-94.805555" y="1305.305853" angle="90" scale_x="-0.079887" scale_y="0.447282"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="typhon_arrowup_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="15.75" y="115.653521" angle="90" scale_x="-0.199717" scale_y="0.149094"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="1" x="20.194444" y="1284.639186" angle="90" scale_x="-0.079887" scale_y="0.447282"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="typhon_arrowup_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="30.75" y="207.320188" angle="90" scale_x="-0.199717" scale_y="0.149094"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="1" x="65.194444" y="1321.305853" angle="90" scale_x="-0.079887" scale_y="0.447282"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="typhon_arrowup_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-9.25" y="278.986855" angle="90" scale_x="-0.199717" scale_y="0.149094"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="0" file="1" x="-54.805556" y="1349.97252" angle="90" scale_x="-0.079887" scale_y="0.447282"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
