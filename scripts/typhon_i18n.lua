@@ -13,14 +13,16 @@ local i18ns = {
             NAMES = {
                 TYPHON_MECHAXBOW = '“污染”',
             },
-            TYPHON = {
-                DESCRIBE = {
-                    TYPHON_MECHAXBOW = '每一支箭都能让萨米的雪晚一些染上黑色。',
-                }
-            },
-            GENERIC = {
-                DESCRIBE = {
-                    TYPHON_MECHAXBOW = '好像有一些黑色的影子。',
+            CHARACTERS = {
+                TYPHON = {
+                    DESCRIBE = {
+                        TYPHON_MECHAXBOW = '每一支箭都能让萨米的雪晚一些染上黑色。',
+                    }
+                },
+                GENERIC = {
+                    DESCRIBE = {
+                        TYPHON_MECHAXBOW = '好像有一些黑色的影子。',
+                    }
                 }
             }
         },
